@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Header & Navigation */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 20px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007aff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('images/hero.jpg') center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .cta-button {
+    background-color: #007aff;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  /* Content & Cards */
+  .content {
+    padding: 20px;
+  }
+  .profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .profile-card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .profile-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* Chat Section */
+  .chat-section {
+    padding: 20px;
+  }
+  .chat-window {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .chat-input input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .chat-input button {
+    padding: 10px;
+    border: none;
+    background-color: #007aff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #fff;
+    border-top: 1px solid #eaeaea;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .footer-links li a {
+    text-decoration: none;
+    color: #007aff;
+  }
+  
